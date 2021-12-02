@@ -1,6 +1,6 @@
 {
 	"name": "@albizures/commitlint",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "Shared Commitlint config for all my projects",
 	"main": "index.js",
 	"license": "MIT",
