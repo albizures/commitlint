@@ -1,0 +1,33 @@
+{
+	"name": "@albizures/commitlint",
+	"version": "0.0.1",
+	"description": "Shared Commitlint config for all my projects",
+	"main": "index.js",
+	"license": "MIT",
+	"repository": "albizures/commitlint",
+	"author": {
+		"email": "albizures@vk.com",
+		"name": "Jose Albizures",
+		"url": "https://albizures.com"
+	},
+	"scripts": {
+		"release": "standard-version --release-as minor && git push --follow-tags origin HEAD"
+	},
+	"files": [
+		"index.js"
+	],
+	"dependencies": {
+		"@commitlint/cli": "^14.1.0",
+		"@commitlint/config-conventional": "^14.1.0"
+	},
+	"devDependencies": {
+		"@albizures/prettier-config": "^1.0.1",
+		"husky": "^7.0.4",
+		"standard-version": "^9.3.2"
+	},
+	"keywords": [
+		"commitlint",
+		"husky",
+		"config"
+	]
+}
